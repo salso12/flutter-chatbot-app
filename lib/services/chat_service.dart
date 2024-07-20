@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:chatbot_app/models/chat_model.dart';
 
 class ChatService {
-  final String apiKey = "you-api-key";
+  final String apiKey = "can't push it";
 
   Future<String> getChatResponse(String message) async {
     final response = await http.post(
